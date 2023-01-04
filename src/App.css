@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+.app-container {
+  /* background-color: rgb(142, 132, 131); */
+  height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+.app-button {
+  color: rgb(240, 248, 255);
+  background-color: rgb(65, 7, 27);
+  border: none;
+  padding: 20px 35px;
+  font-size: 20px;
+  font-family: " roboto";
+  font-weight: bold;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.animals-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
